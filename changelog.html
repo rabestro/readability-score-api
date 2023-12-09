@@ -66,12 +66,28 @@
 <h2><a name="Change_Log_Report"></a>Change Log Report</h2>
 <p>Total number of changed sets: 1</p><section>
 <h3><a name="Changes_between_2023-11-09_and_2023-12-10"></a>Changes between 2023-11-09 and 2023-12-10</h3>
-<p>Total commits: 12<br />Total number of files changed: 13</p>
+<p>Total commits: 16<br />Total number of files changed: 14</p>
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Timestamp</th>
 <th>Author</th>
 <th>Details</th></tr>
+<tr class="b">
+<td>2023-12-09 13:34:30</td>
+<td>Jegors &#x10c;emisovs &lt;jegors_cemisovs@epam.com&gt;</td>
+<td><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/qodana_code_quality.yml">.github/workflows/<b>qodana_code_quality.yml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/qodana_code_quality.yml?rev=4c0fd34674964b2062ead064aef01dd4570dc2fb&amp;content-type=text/vnd.viewcvs-markup">v 4c0fd34674964b2062ead064aef01dd4570dc2fb</a><br /><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/pom.xml"><b>pom.xml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/pom.xml?rev=4c0fd34674964b2062ead064aef01dd4570dc2fb&amp;content-type=text/vnd.viewcvs-markup">v 4c0fd34674964b2062ead064aef01dd4570dc2fb</a><br /><br />Update dependencies and GitHub action versions<br /><br />This commit includes updates to the versions of dependencies in the pom.xml file. In addition, the versions of actions used in the Qodana code quality GitHub workflow file have been updated. This ensures our project is being built and tested against the latest plugin and action versions for improved performance and security.</td></tr>
+<tr class="a">
+<td>2023-12-09 13:02:52</td>
+<td>Jegors &#x10c;emisovs &lt;jegors_cemisovs@epam.com&gt;</td>
+<td><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/build.yml">.github/workflows/<b>build.yml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/build.yml?rev=e6f8a6d9f61663c08f6a158ffdc62d9da8249915&amp;content-type=text/vnd.viewcvs-markup">v e6f8a6d9f61663c08f6a158ffdc62d9da8249915</a><br /><br />Remove Maven site publishing step from Github workflow<br /><br />Removed the step in the Github workflow that was responsible for publishing the Maven site. This change is due to the fact that the publishing of the Maven site is no longer needed in our workflow.</td></tr>
+<tr class="b">
+<td>2023-12-09 12:58:49</td>
+<td>Jegors &#x10c;emisovs &lt;jegors_cemisovs@epam.com&gt;</td>
+<td><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/qodana_code_quality.yml">.github/workflows/<b>qodana_code_quality.yml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/qodana_code_quality.yml?rev=eda0c4caa9c5944b95972009d180cc070143c7ab&amp;content-type=text/vnd.viewcvs-markup">v eda0c4caa9c5944b95972009d180cc070143c7ab</a><br /><br />Add Qodana code quality check workflow<br /><br />A new GitHub Actions workflow, named Qodana, has been introduced. This workflow triggers on pull requests, pushes to main branch, and workflow dispatch. It uses the Qodana Scan action from JetBrains to run code quality checks.</td></tr>
+<tr class="a">
+<td>2023-12-09 12:44:23</td>
+<td>Jegors &#x10c;emisovs &lt;jegors_cemisovs@epam.com&gt;</td>
+<td><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/build.yml">.github/workflows/<b>build.yml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/.github/workflows/build.yml?rev=c5bff0d1ef5304842065db256a95e2c3dffe8ed6&amp;content-type=text/vnd.viewcvs-markup">v c5bff0d1ef5304842065db256a95e2c3dffe8ed6</a><br /><a class="externalLink" href="https://github.com/rabestro/readability-score-guice/pom.xml"><b>pom.xml</b></a> <a class="externalLink" href="https://github.com/rabestro/readability-score-guice/pom.xml?rev=c5bff0d1ef5304842065db256a95e2c3dffe8ed6&amp;content-type=text/vnd.viewcvs-markup">v c5bff0d1ef5304842065db256a95e2c3dffe8ed6</a><br /><br />Update CI/CD settings and Java version<br /><br />Updated the CI/CD workflow to include the Maven site publishing step. In addition, the Java version has been changed from 21 to 17 in pom.xml. Alongside these, several new reports have been added to the Maven configuration: dependency-updates-aggregate-report, plugin-updates-aggregate-report, and parent-updates-report.</td></tr>
 <tr class="b">
 <td>2023-12-09 12:24:43</td>
 <td>Jegors &#x10c;emisovs &lt;jegors_cemisovs@epam.com&gt;</td>
