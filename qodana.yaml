@@ -29,3 +29,10 @@ projectJDK: 21 #(Applied in CI/CD pipeline)
 
 #Specify Qodana linter for analysis (Applied in CI/CD pipeline)
 linter: jetbrains/qodana-jvm:latest
+include:
+  - name: CheckDependencyLicenses
+  - name: TypeMayBeWeakened
+  - name: AssignmentToNull
+  - name: UnnecessaryExplicitNumericCast
+  - name: ClassNameSameAsAncestorName
+  - name: ClassCoupling
