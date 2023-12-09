@@ -49,5 +49,3 @@ jobs:
           --define sonar.host.url=https://sonarcloud.io
           --define sonar.projectKey=lv.id.jc:readability-score-guice
           --define sonar.issues.defaultAssigneeLogin=rabestro
-      - name: Publish Maven Site
-        run: mvn clean site site:stage scm-publish:publish-scm --batch-mode
