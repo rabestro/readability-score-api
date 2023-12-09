@@ -78,7 +78,7 @@
 
     <properties>
         <!-- this property must be set for the CI/CD to work correctly -->
-        <java.version>21</java.version>
+        <java.version>17</java.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -470,8 +470,11 @@
                     <reportSet>
                         <reports>
                             <report>dependency-updates-report</report>
+                            <report>dependency-updates-aggregate-report</report>
                             <report>plugin-updates-report</report>
+                            <report>plugin-updates-aggregate-report</report>
                             <report>property-updates-report</report>
+                            <report>parent-updates-report</report>
                         </reports>
                     </reportSet>
                 </reportSets>
