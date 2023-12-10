@@ -1,0 +1,26 @@
+<extension>
+    <executions>
+        <execution>
+            <id>maven-enforcer-extension</id>
+            <phase>validate</phase>
+            <configuration>
+                <rules>
+                    <requireJavaVersion>
+                        <version>17</version>
+                    </requireJavaVersion>
+                    <requireMavenVersion>
+                        <version>3.9.1</version>
+                    </requireMavenVersion>
+                    <requireProperty>
+                        <property>java.version</property>
+                        <message>
+                            For the CI/CD to function properly, it is necessary to set the 'java.version' property.
+                        </message>
+                    </requireProperty>
+                    <requireUpperBoundDeps/>
+                    <requireSameVersions/>
+                </rules>
+            </configuration>
+        </execution>
+    </executions>
+</extension>
