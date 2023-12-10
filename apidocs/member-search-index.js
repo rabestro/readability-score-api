@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"lv.id.jc.readability","c":"SentenceSeparator","l":"apply(String)","u":"apply(java.lang.String)"},{"p":"lv.id.jc.readability","c":"SentenceSeparator","l":"SentenceSeparator()","u":"%3Cinit%3E()"}];updateSearchResults();

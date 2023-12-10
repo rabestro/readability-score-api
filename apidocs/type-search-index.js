@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"lv.id.jc.readability","l":"SentenceSeparator"},{"p":"lv.id.jc.readability","l":"TextToSentencesFunction"}];updateSearchResults();
