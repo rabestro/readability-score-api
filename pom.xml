@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lv.id.jc</groupId>
-    <artifactId>readability-score-guice</artifactId>
+    <artifactId>readability-score-api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>
@@ -15,7 +15,7 @@
         A program to determine the complexity of a given text, enabling computers to analyze readability.
     </description>
     <url>
-        https://github.com/rabestro/readability-score-guice
+        https://github.com/rabestro/readability-score-api
     </url>
     <inceptionYear>
         2023
@@ -48,31 +48,31 @@
 
 
     <scm>
-        <connection>scm:git:https://github.com/rabestro/readability-score-guice.git</connection>
-        <developerConnection>scm:git:https://github.com/rabestro/readability-score-guice.git</developerConnection>
+        <connection>scm:git:https://github.com/rabestro/readability-score-api.git</connection>
+        <developerConnection>scm:git:https://github.com/rabestro/readability-score-api.git</developerConnection>
         <url>https://github.com/rabestro/readability-score-guice</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/rabestro/readability-score-guice/issues</url>
+        <url>https://github.com/rabestro/readability-score-api/issues</url>
     </issueManagement>
 
     <distributionManagement>
         <site>
             <id>site</id>
-            <url>scm:git:git@github.com:rabestro/readability-score-guice.git</url>
+            <url>scm:git:git@github.com:rabestro/readability-score-api.git</url>
         </site>
         <repository>
             <id>repository</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rabestro/readability-score-guice</url>
+            <url>https://maven.pkg.github.com/rabestro/readability-score-api</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rabestro/readability-score-guice</url>
+            <url>https://maven.pkg.github.com/rabestro/readability-score-api</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -91,11 +91,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.google.inject</groupId>
-                <artifactId>guice</artifactId>
-                <version>[7.0, 7.9)</version>
-            </dependency>
             <!-- Spock Framework (Bill of Materials) -->
             <dependency>
                 <groupId>org.spockframework</groupId>
@@ -115,10 +110,6 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.spockframework</groupId>
             <artifactId>spock-core</artifactId>
