@@ -1,9 +1,2 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Readability Score,lv.id.jc.readability,ReadabilityApplication,8,0,0,0,3,0,2,0,2,0
-Readability Score,lv.id.jc.readability.controller,TextAnalysisController,34,0,0,0,9,0,3,0,3,0
-Readability Score,lv.id.jc.readability.model,TextStatistic,0,33,0,0,0,6,0,1,0,1
-Readability Score,lv.id.jc.readability.model,TextAnalysisRequest,0,6,0,0,0,1,0,1,0,1
-Readability Score,lv.id.jc.readability.model,TextStatistics,0,12,0,0,0,1,0,1,0,1
-Readability Score,lv.id.jc.readability.model,TextAnalysisResponse,0,9,0,0,0,1,0,1,0,1
-Readability Score,lv.id.jc.readability.service,TextAnalysisService,8,0,0,0,2,0,2,0,2,0
-Readability Score,lv.id.jc.readability.core,SentenceSeparator,0,8,0,0,0,2,0,2,0,2
+Readability Score,lv.id.jc.readability,SentenceSeparator,0,8,0,0,0,2,0,2,0,2
